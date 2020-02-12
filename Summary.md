@@ -6,9 +6,13 @@
 
 # Knowledge base:
 
-* Profession(10) : Engineering, Science, Business, Medical, Applied Arts, Liberal Arts, Fine Arts, Communications, Health Care, Education.
+* Profession(10) : 
 
-* Area(...) : Electrical, Mechanical, Civil, Petroleum, Chemical...
+              Engineering, Science, Business, Medical, Applied Arts, Liberal Arts, Fine Arts, Communications, Health Care, Education.
+
+* Area(...) : 
+
+              Electrical, Mechanical, Civil, Petroleum, Chemical...
               Mental health, Oncologist, Cardiologist, General practitioner...
               Nursing, Health Services Management, Healthcare Administraion, Pysician Assistant, Public Health...
 
