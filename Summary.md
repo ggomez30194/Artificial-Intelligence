@@ -39,6 +39,12 @@
             Decision Tree 1 (Backward Chaining) // advice Profession
             Decision Tree 2 (Forward Chaining) // advice Area based on Profession
             
-* Rule 04 :
+* Rule 04 :Programing details
             
-            Should have total at least 50 rules in both forward/backward chaining          
+            1.Should have total at least 50 rules in both forward/backward chaining
+            2.Run the program with the rules for minimum of 5 students
+            3.Print the intermediate results to trace your program
+            4.Write his/her REPORT containing the explanation of the problem and the domain, decision tree, rules, methodologies used (Backward and Forward), the program, detailed explanations of the modifications to the program you implemented, and the analysis of the program and the analyses of results as defined in item #3 above. Also, clearly identify the contribution of each team member.
+            5.To run your programs, downloads your Files with full instructions to run your programs. Warning: EACH STUDENT MUST PERFORM STEPS 1 TO 5 INDIVIDUALLY. DO NOT COPY PROGRAMS FROM ANY SOURCE EXCEPT THE PROGRAMS I HAVE PROVIDED THROUGH TRACS. ALSO, DO NOT COPY REPORT FROM YOUR PARTNER OR ANY OTHER PERSON.
+            6.main function will call other two functions
+            
