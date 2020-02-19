@@ -14,11 +14,11 @@
 
               Electrical, Mechanical, Civil, Petroleum, Chemical
               Mental Health, Oncologist, Cardiologist, General Practitioner, Orthopedic
-              Nursing, Health Services Management, Healthcare Administraion, Physician Assistant, Public Health
+              Nursing, Health Services Management, Healthcare Administration, Physician Assistant, Public Health
               Biology, Physics, Computer Science, Chemistry, Animal Science
               Business Management, Marketing, Advertisement, Trading, Entrepreneurship
               Photography, Design, Visual Communication, Media, Fashion
-              Antropology, Astronomy, World Literature, Literature, Theology
+              Anthropology, Astronomy, World Literature, Literature, Theology
               Art History, Sculpting, Painting, Music, Dance
               Journalism, Linguistics, Political Science, Speech, Editing
               Early Childhood, Physical Education, Secondary Education, Special Education, Counseling
@@ -31,11 +31,11 @@
       etc: Profession      --->      Area                
            Engineering     --->      Electrical, Mechanical, Civil, Petroleum, Chemical
            Medical         --->      Mental Health, Oncologist, Cardiologist, Orthopedic, General practitioner
-           Health Care     --->      Nursing, Health Services Management, Healthcare Administraion, Physician Assistant, Public Health
+           Health Care     --->      Nursing, Health Services Management, Healthcare Administration, Physician Assistant, Public Health
            Science         --->      Biology, Physics, Computer Science, Chemistry, Animal Science
            Business        --->      Business Management, Marketing, Advertisement, Trading, Entrepreneurship
            Applied Arts    --->      Photography, Design, Visual Communication, Media, Fashion
-           Liberal Arts    --->      Antropology, Astronomy, World Literature, Literature, Theology
+           Liberal Arts    --->      Anthropology, Astronomy, World Literature, Literature, Theology
            Fine Arts       --->      Art History, Sculpting, Painting, Music, Dance
            Communication   --->      Journalism, Linguistics, Political Science, Speech, Editing
            Education       --->      Early Childhood, Physical Education, Secondary Education, Special Education, Counseling
