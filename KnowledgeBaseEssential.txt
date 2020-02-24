@@ -29,10 +29,10 @@ Rule Number   Rule
 10            if sciene = yes && designing = yes && problemSovling = yes;
               then profession = EGR;
 
-20            if science = yes && experiment = yes && calculating = yes;
+20            if science = yes && calculating = yes;
               then profession = SCI
 
-30            if science = yes && experiment = yes && calculating = no && reporting = yes;
+30            if science = yes && calculating = no && reporting = yes;
               then profession = MED;
 
 40            if science = no && communicate = yes && decisionMaking = yes;
@@ -41,15 +41,15 @@ Rule Number   Rule
 50            if science = no = yes && decisionMaking = no && speaking = yes;
               then prfession = COM;
 
-60            if science = no && reading = yes && apply = yes;
+60            if science = no && apply = yes;
               then profession = APA;
 
-70            if science = no && reading = yes && apply = no && reading = yes;
+70            if science = no && apply = no && reading = yes;
               then profession = LBA;
 
-80            if science = no && preparing = yes && grading = yes;
+80            if science = no && grading = yes;
               then profession = EDU;
 
-90            if art = yes && preparing = yes && grading = no && nursing = yes;
+90            if science = no && grading = no && nursing = yes;
               then profession = HTC;
 
