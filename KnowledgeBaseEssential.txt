@@ -1,0 +1,112 @@
+Equation:   Clause Number = 4 * (RuleNumber / 10 - 1) + 1
+
+          EGR = "Engineering",    //science, designing, problemSolving,
+
+          SCI = "Science",        //scienc, experiment, calculating,
+
+          BUS = "Business",       //art, communicate, decisionMaking,
+
+          MED = "Medical",        //science, experiment, reporting
+
+          APA = "Applied Arts",   //art, reading, apply,
+
+          LBA = "Liberal Arts",   //art, reading, writing,
+
+          FNA = "Fine Arts",      //art, designing, crafting,
+
+          COM = "Communication",  //art, communicate, speaking,
+
+          HTC = "Health Care",    //science, preparing, nursing,
+
+          EDU = "Education",      //art, preparing, grading,
+
+          UND = "Undecided";      //profession cannot be decided
+
+DecisionTree for the BackwardChaing:
+
+Rule Number   Rule
+
+              science
+*********************************************************************************************
+10            if science = no;
+              then profession = UND;
+
+              art
+*********************************************************************************************
+20            if art = no;
+              then profession = UND;
+
+              science, designing, EGR
+*********************************************************************************************
+30            if science = yes && designing = yes;
+              then profession = EGR;
+
+40            if science = no && designing = no;
+              then profession = UND;
+
+              science, experiment, SCI, MED
+*********************************************************************************************
+50            if science = yes && experiment = yes && calculating = yes;
+              then profession = SCI
+
+60            if science = yes && experiment = yes && calculating = no;
+              then profession = UND;
+
+70            if science = yes && experiment = yes && reporting = yes;
+              then profession = MED;
+
+80            if science = yes && experiment = yes && reporting = no;
+              then profession = UND;
+
+90            if science = yes && experiment = no;
+              then profession = UND;
+
+              art, communicate BUS, COM
+*********************************************************************************************
+100           if art = yes && communicate = yes && decisionMasing = yes;
+              then profession = BUS;
+
+110           if art = yes && communicate = yes && decisionMaking = no;
+              then profession = UND;
+
+120           if art = yes && communicate = yes && speaking = yes;
+              then prfession = COM;
+
+130           if art = yes && communicate = yes && speaking = no;
+              then profession = UND;
+
+140           if art = yes && communicate = no;
+              then profession = UND;
+
+              art, reading
+**********************************************************************************************
+150           if art = yes && reading = yes && apply = yes;
+              then profession = APA;
+
+160           if art = yes && reading = yes && apply = no;
+              then profession = UND;
+
+170           if art = yes && reading = yes && writing = yes;
+              then profession = LBA;
+
+180           if art = yes && reading = yes && writing = no;
+              then profession = UND;
+
+190           if art = yes && reading = no;
+              then profession = UND;
+
+              art, preparing              
+**********************************************************************************************
+200           if art = yes && preparing = yes;
+              then profession = EDU;
+
+210           if art = yes && preparing = no;
+              then profession = UND;
+
+              science, preparing              
+**********************************************************************************************
+220           if science = yes && preparing = yes;
+              then profession = HTC;
+  
+230           if science = yes && preparing = no;
+              then profession = UND;
