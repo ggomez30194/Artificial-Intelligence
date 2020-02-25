@@ -1,0 +1,69 @@
+Equation:   Clause Number = 4 * (RuleNumber / 10 - 1) + 1
+
+          EGR = "Engineering",    //science, designing, problemSolving,
+
+          SCI = "Science",        //scienc, experiment, calculating,
+
+          BUS = "Business",       //art, communicate, decisionMaking,
+
+          MED = "Medical",        //science, experiment, reporting
+
+          APA = "Applied Arts",   //art, reading, apply,
+
+          LBA = "Liberal Arts",   //art, reading, writing,
+
+          FNA = "Fine Arts",      //art, designing, crafting,
+
+          COM = "Communication",  //art, communicate, speaking,
+
+          HTC = "Health Care",    //science, preparing, nursing,
+
+          EDU = "Education",      //art, preparing, grading,
+
+          UND = "Undecided";      //profession cannot be decided
+
+DecisionTree for the BackwardChaing:
+
+Rule Number   Rule
+
+              science
+****************************************************************************************************************
+10            if science = yes && designing = yes;
+              then profession = EGR;
+
+20            if science = yes && designing = no && calculating = yes;
+              then profession = SCI;
+
+30            if science = yes && designing = no && calculating = no && reporting = yes;
+              then profession = MED;
+
+40            if science = yes && designing = no && calculating = no && repporting = no && nursing = yes;
+              then profession = HTC;
+
+50            if science = no;
+              then art = yes;
+
+              art
+****************************************************************************************************************
+60            if art = yes && apply = yes;
+              then profession = APA;
+
+70            if art = yes && apply = no && writing = yes;
+              then profession = LBA;
+
+80            if art = yes && apply = no && writing = no && crafting = yes;
+              then profession = FNA;
+
+90            if art = yes && apply = no && writing = no && crafting = no && speaking = yes;
+              then profession = COM;
+
+              general
+*****************************************************************************************************************
+100           if art = no;
+              then general = yes;
+
+110           if general = yes && grading = yes;
+              then profession = EDU;
+
+120           if general = yes && grading = no && decisionMaking = yes;
+              then profession = BUS; 
