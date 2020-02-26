@@ -6,7 +6,7 @@ CS4346: Advanced Artificial Intelligence
 Project #1: Spring 2020	 
 
 
-							Due Date: Feb 19, 2020 
+							Due Date: March 4th, 2020 
 
 Create an intelligent computer expert system for career advising to a freshman student who wishes to choose a major to pursue his/her studies. First use Backward Chaining methodology to determine the profession in which the student is interested. Use at least ten professions like Engineering, Science, Business, Medical, Applied Arts, Liberal Arts, Fine Arts, Communications, Health Care, and Education. Then use Forward Chaining methodology to recommend a specific area in which a student should pursue. For example, if the profession is engineering the area could be chosen from Electrical, Mechanical, Civil, petroleum, chemical etc.; if the profession is medical, the area could be chosen from mental health, oncologist, orthopedic, cardiologist, and General practitioner etc.; if the profession is health care, the area could be chosen from nursing, Health Services Management, Healthcare Administration, Physician Assistant, and Public Health, etc. Use a minimum of five areas for each profession. You can use Web or any other source to collect knowledge to develop knowledge bases. 
 A student who wishes to avail advising service will enter data in response to prompts from the Expert system. Your expert system will first advise the profession and then a specific area in that profession. 
