@@ -235,7 +235,7 @@ string forwardChaining(string profession)
         knowbaseRuleNo += 10;
     }
 
-    for(auto&& [ruleno, rule] : knowledgeBase ) {
+    for(auto const& [ruleno, rule] : knowledgeBase ) {
         cout << ruleno << " : " << rule << endl;
         int clIndex = (MAX_CLAUSE_VAR_COUNTFC * (ruleno / 10 - 1)) + 1;
 
